@@ -14,7 +14,8 @@ export default {
         container: "1470px",
       },
       colors: {
-        btn: "#d9945f",
+        btnhover: "#d9945f",
+        btn:"#A6734B"
       },
     },
   },

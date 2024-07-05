@@ -153,13 +153,13 @@ select:focus {
   padding-top: 100px !important;
 }
 
-.sidebar::-webkit-scrollbar {
+/* .sidebar::-webkit-scrollbar {
   background: black;
   width: 6px;
 }
 .sidebar::-webkit-scrollbar-thumb {
   background: #d9945f;
-}
+} */
 
 .img_box .slick-active .bg_img {
   animation: imgShow 0.71s linear forwards;
@@ -224,4 +224,6 @@ select:focus {
   text-align: center !important;
 }
 
-
+.active {
+  background-color: #21160e;
+}

@@ -6,6 +6,7 @@ import Luxury from '../components/Luxury'
 import RoomSuits from '../components/RoomSuits'
 import Spa from '../components/Spa'
 import Special from '../components/Special'
+import SingleBanner from '../components/SingleBanner'
 const Home = () => {
   return (
     <div>

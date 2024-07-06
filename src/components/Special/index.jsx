@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import titleLine from "../../assets/images/title_line.svg";
-import Special1 from '../../assets/images/special1.jpg'
+import Special1 from "../../assets/images/special1.jpg";
 import Slider from "react-slick";
 const Special = () => {
     var settings = {
@@ -11,6 +11,25 @@ const Special = () => {
         centerPadding:'260px',
         slidesToShow: 1,
         slidesToScroll: 1,
+        responsive: [
+ 
+            {
+              breakpoint: 900,
+              settings: {
+                centerPadding:'0px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 760,
+              settings: {
+                centerPadding:'0px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            }
+          ]
       };
   return (
     <>
@@ -19,7 +38,7 @@ const Special = () => {
         <div className="title pb-4 text-center">
             <h4 className='font-roboto font-normal text-center text-lg uppercase flex items-center justify-center gap-5 text-[#63462F] tracking-[5px]'><picture><img   src={titleLine} alt={titleLine} /></picture> Make memories happen </h4>
         </div>
-        <h1 className='font-anglecia font-normal text-[72px] text-dark text-center pb-[28px]'>Special Offers</h1>
+        <h1 className='font-anglecia font-normal text-[32px] md:text-[72px] text-dark text-center pb-[28px]'>Special Offers</h1>
 
         <div className="offers_box">
             <Slider {...settings}>
@@ -30,7 +49,7 @@ const Special = () => {
                     </picture>
                 </div>
                 <div className="offers_info absolute  z-[99] left-1/2 -translate-x-1/2 bottom-0">
-                    <div className="ofr_card p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto w-[615px]">
+                    <div className="ofr_card p-6 md:p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  md:pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto md:w-[615px]">
                         <h4 className='font-anglecia font-normal text-4xl text-dark text-left pb-6'>Stay Longer</h4>
                         <p className='font-roboto font-normal text-10 text-dark text-left pb-6'>Mauris fermentum dictum magna. Sed laoreet aliquam leo.
                         Ut tellus dolor, dapibus eget, elementum vel, cursus
@@ -55,7 +74,7 @@ const Special = () => {
                     </picture>
                 </div>
                 <div className="offers_info absolute  z-[99] left-1/2 -translate-x-1/2 bottom-0">
-                    <div className="ofr_card p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto w-[615px]">
+                    <div className="ofr_card p-6 md:p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  md:pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto md:w-[615px]">
                         <h4 className='font-anglecia font-normal text-4xl text-dark text-left pb-6'>Stay Longer</h4>
                         <p className='font-roboto font-normal text-10 text-dark text-left pb-6'>Mauris fermentum dictum magna. Sed laoreet aliquam leo.
                         Ut tellus dolor, dapibus eget, elementum vel, cursus
@@ -80,7 +99,7 @@ const Special = () => {
                     </picture>
                 </div>
                 <div className="offers_info absolute  z-[99] left-1/2 -translate-x-1/2 bottom-0">
-                    <div className="ofr_card p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto w-[615px]">
+                    <div className="ofr_card p-6 md:p-10 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:-top-6 after:-right-8 after:z-[-1]  md:pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:-top-8 before:-right-10 before:z-[-2] mx-auto md:w-[615px]">
                         <h4 className='font-anglecia font-normal text-4xl text-dark text-left pb-6'>Stay Longer</h4>
                         <p className='font-roboto font-normal text-10 text-dark text-left pb-6'>Mauris fermentum dictum magna. Sed laoreet aliquam leo.
                         Ut tellus dolor, dapibus eget, elementum vel, cursus
@@ -102,7 +121,7 @@ const Special = () => {
         </div>
     </section>
     </>
-  )
-}
+  );
+};
 
-export default Special
+export default Special;

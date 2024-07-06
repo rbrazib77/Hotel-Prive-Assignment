@@ -7,68 +7,16 @@ const SingleBannerButtomMenu = () => {
     <section className="">
       <div className="bg-[#473d35]">
         <div className="max-w-container m-auto">
-          <div className=" overflow-x-scroll   ">
-            <div>
-              <ul className="flex justify-between">
-                <li>
-                  <NavLink className="bg-[#21160e] active  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Description
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Room Facilitiey
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Description
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Description
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Description
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Description
-                  </NavLink>
-                </li>{" "}
-                <li>
-                  <NavLink className="bg-[#21160e]  px-5 py-5 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                    Reviews
-                  </NavLink>
-                </li>{" "}
-                {/* <li className=" px-3 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""></a>
-              </li>
-              <li className=" px-3 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Floor Plan</a>
-              </li>
-              <li className=" px-3 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Photo Gallery</a>
-              </li>
-              <li className=" px-3 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Rates</a>
-              </li>
-              <li className=" px-3 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Availbiillity</a>
-              </li>
-              <li className=" px-5 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Reservertion Form</a>
-              </li>{" "}
-              <li className=" px-5 py-2 text-[#fff] font-anglecia font-normal text-[24px] leading-[64px] hover:bg-[#21160e] duration-200">
-                <a href=""> Reviews</a>
-              </li>{" "} */}
-              </ul>
-            </div>
-          </div>
+        <ul className='pdct_navs  overflow-x-auto whitespace-nowrap'>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-dark' href="#description">Description</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#room_facilities">Room Facilities</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#floor_plan">Floor Plan</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#photo_gallery">Photo Gallery</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#rates">Rates</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="">Availability</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#reservation_form">Reservation Form</a></li>
+            <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-transparent' href="#reviews">Reviews</a></li>
+        </ul>
         </div>
       </div>
     </section>

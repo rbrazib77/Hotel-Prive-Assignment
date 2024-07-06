@@ -8,23 +8,25 @@ import Availability from '../Availability'
 import ReservationForm from '../ReservationForm'
 import Review from '../Review'
 import AddReview from '../AddReview'
+import Rates from '../Rates'
 
 const SingleRoomBannerContent = () => {
   return (
     <div>
         <div className='max-w-container m-auto'>
-           <div className='flex gap-x-8'>
-          <div className='w-[70%]'>
+           <div className='md:flex gap-x-8'>
+          <div className='md:w-[70%] w-full '>
              <Description/>
              <RoomFacilitie/>
              <FloorPlan/>
              <PhotoGallery/>
+             <Rates/>
              <Availability/>
              <ReservationForm/>
              <Review/>
              <AddReview/>
              </div>
-          <div className='w-[30%'>
+          <div className='w-[30% ]'>
             <Check/>
           </div>
            </div>

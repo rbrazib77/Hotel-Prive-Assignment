@@ -4,13 +4,13 @@ import Review1 from "../../assets/images/review1.jpg";
 import { IoIosStar } from "react-icons/io";
 const Review = () => {
   return (
-    <div>
-      <div className="">
+    <div id='reviews'>
+      <div className="px-6 md:px-0">
         <h2 className="font-anglecia text-[#21160e] font-normal leading-8 text-[24px] pt-10 pb-6">
           Reviews
         </h2>
-        <div className="flex gap-x-8">
-          <div className="w-[20%] bg-[#f5f0eb] text-center box-content px-10 py-20 ">
+        <div className="md:flex gap-x-8">
+          <div className="md:w-[20%] w-full bg-[#f5f0eb] text-center box-content py-16 md:px-10 md:py-20 ">
             <p className="font-anglecia font-normal text-[96px] leading-[96px]  text-[#bf885e]">
               4.5
             </p>
@@ -18,7 +18,7 @@ const Review = () => {
               Good
             </h4>
           </div>
-          <div className="w-[70%]  ">
+          <div className="md:w-[70%]  ">
             <div className="relative">
               <div className="flex justify-between border-b-4 border-[#f5f0eb] py-4 after:h-[3px] after:w-[80%] after:content['] after:bg-[#bf885e] after:absolute  after:top-16 after:left-0">
                 <h2 className="font-roboto font-normal text-lg leading-8 text-[#21160e]">
@@ -68,8 +68,8 @@ const Review = () => {
           </button>
         </div>
         <div className="reviewUser mt-6">
-          <div className="flex">
-            <div className="w-[150px]">
+          <div className="flex gap-x-4 md:gap-x-0">
+            <div className="w-[200px] md:w-[150px]">
               <picture>
                 <img src={Review2} className="rounded-full" alt="" />
               </picture>
@@ -94,8 +94,8 @@ const Review = () => {
               </div>
             </div>
           </div>
-          <div className="flex mt-10">
-            <div className="w-[150px]">
+          <div className=" flex gap-x-4 md:gap-x-0 mt-10">
+            <div className="w-[200px] md:w-[150px]">
               <picture>
                 <img src={Review1} className="rounded-full" alt="" />
               </picture>

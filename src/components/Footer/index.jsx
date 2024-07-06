@@ -4,6 +4,7 @@ import f1imag from "../../assets/images/f1.png";
 import f2imag from "../../assets/images/f2.png";
 import f3imag from "../../assets/images/f3.png";
 import { Link } from "react-router-dom";
+import arrows from "../../assets/images/arrows.svg";
 const Footer = () => {
   return (
     <section className="bg-[#473d35] py-[120px] px-6 md:px-0 ">
@@ -35,18 +36,38 @@ const Footer = () => {
               Menu
             </h4>
             <ul className="flex flex-col">
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                About
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Office
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3 ">
-                News
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base">
-                Contact Us
-              </Link>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    About
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Office
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3 ">
+                    News
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base">
+                    Contact Us
+                  </Link>
+                </div>
+              </div>
             </ul>
           </div>
           <div className="pb-6 md:pb-0">
@@ -54,18 +75,41 @@ const Footer = () => {
               Rooms & Suits
             </h4>
             <ul className="flex flex-col">
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Cassic
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Superior
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Deluxe
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base">
-                Master
-              </Link>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Cassic
+                  </Link>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Superior
+                  </Link>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Deluxe
+                  </Link>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base">
+                    Master
+                  </Link>
+                </div>
+              </div>
             </ul>
           </div>
           <div className="pb-6 md:pb-0">
@@ -73,21 +117,42 @@ const Footer = () => {
               Stay Connected
             </h4>
             <ul className="flex flex-col">
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Facebook
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Instagram
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
-                Twitter
-              </Link>
-              <Link className="text-[#d9945f] font-roboto leading-[24px]  text-base">
-                Tripadvia
-              </Link>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Facebook
+                  </Link>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Instagram
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px] text-base pb-3">
+                    Twitter
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center gap-x-5">
+                <img src={arrows} className="w-[40px]" alt="" />
+                <div>
+                  <Link className="text-[#d9945f] font-roboto leading-[24px]  text-base">
+                    Tripadvia
+                  </Link>
+                </div>
+              </div>
             </ul>
           </div>
-          <div  className="pb-6 md:pb-0">
+          <div className="pb-6 md:pb-0">
             <h4 className="text-[24px] leading-8 text-[#fff] font-normal font-anglecia">
               Our Awards
             </h4>

@@ -6,15 +6,17 @@ import { RiSafeLine } from "react-icons/ri";
 import { TbTableColumn } from "react-icons/tb";
 const RoomFacilitie = () => {
   return (
-    <div>
-      <div className="">
+    <section id='room_facilities'>
+      <div className="px-6 md:px-0">
         <div className="">
           <h2 className="font-anglecia text-2xl leading-8 font-normal pb-6">
             Room Facilities
           </h2>
-          <div className="grid grid-cols-3  ">
-            <div className="flex">
-              <div>1</div>
+          <div className="md:grid grid-cols-3 mb-6 md:mb-0 ">
+            <div className="flex items-center gap-x-3 mb-4">
+              <div>
+              <GiSlippers className="text-[#df9393dd] text-xl" />
+              </div>
               <div className="">
                 <p className="text-lg font-roboto text-[#473d35] leading-8 font-normal">
                   Kettle, tea & coffee
@@ -194,7 +196,7 @@ const RoomFacilitie = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

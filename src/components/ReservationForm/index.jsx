@@ -13,7 +13,8 @@ const ReservationForm = () => {
     setTableTwo(!tableTwo);
   };
   return (
-    <div>
+    <section id='reservation_form'>
+    <div className="md:px-0 px-6">
       <div className="">
         <h2 className="font-anglecia text-[#21160e] font-normal leading-8 text-[24px] pt-10">
           Reservation Form
@@ -22,8 +23,8 @@ const ReservationForm = () => {
           Required fields are followed by *
         </h5>
       </div>
-      <div className="flex gap-x-10 ">
-        <div className="w-[50%]">
+      <div className="md:flex gap-x-10 ">
+        <div className="md:w-[50%] w-full">
           <h4 className="font-roboto text-[12px] font-normal leading-4 text-[#7a6f68] pb-3">
             CHECK-IN DATE *
           </h4>
@@ -119,7 +120,7 @@ const ReservationForm = () => {
             )}
           </div>
         </div>
-        <div className="w-[50%]">
+        <div className="md:w-[50%] w-full md:mt-0 mt-8">
           <h4 className="font-roboto text-[12px] font-normal leading-4 text-[#7a6f68] pb-3">
             CHECK-OUT DATE *
           </h4>
@@ -161,53 +162,53 @@ const ReservationForm = () => {
                   </div>
                   <div className="tablebody bg-white flex px-4">
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                     <table className="border-r-2 ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>{" "}
                     <table className=" ">
-                      <li className="px-6 list-none py-4">30</li>
-                      <li className="px-6 list-none py-4">6</li>
-                      <li className="px-6 list-none py-4">13</li>
-                      <li className="px-6 list-none py-4">20</li>
-                      <li className="px-6 list-none py-4">27</li>
+                      <li className="md:px-6 px-5 list-none py-4">30</li>
+                      <li className="md:px-6 px-5 list-none py-4">6</li>
+                      <li className="md:px-6 px-5 list-none py-4">13</li>
+                      <li className="md:px-6 px-5 list-none py-4">20</li>
+                      <li className="md:px-6 px-5 list-none py-4">27</li>
                     </table>
                   </div>
                 </div>
@@ -216,8 +217,8 @@ const ReservationForm = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-x-10">
-        <div className="w-[50%]">
+      <div className="md:flex gap-x-10">
+        <div className="md:w-[50%] w-full">
           <div className="flex gap-x-6">
             <div className="w-[50%] ">
               <h1 className="font-roboto text-[12px] font-normal leading-4 text-[#7a6f68] pb-3 pt-5">
@@ -238,13 +239,14 @@ const ReservationForm = () => {
             </div>
           </div>
         </div>
-        <div className="w-[50%] mt-11">
+        <div className="md:w-[50%] w-full mt-11">
           <button className="bg-btn hover:bg-btnhover duration-700 w-full  py-5 text-[#fff] uppercase font-roboto font-normal text-base leading-6">
             Check Availability
           </button>
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

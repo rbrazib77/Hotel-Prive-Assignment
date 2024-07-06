@@ -86,8 +86,7 @@ const Banner = () => {
                       </div>
                     </div>
                     {table && (
-                      <div>
-                        <div className="w-full  m-auto absolute bottom left-0 z-10">
+                        <div className="w-full z-[99999]  m-auto absolute bottom left-0 ">
                           <div className="topheade ">
                             <thead className="bg-[#856a54] flex justify-between items-center py-5 px-5">
                               <FaAngleLeft className="text-white" />
@@ -160,7 +159,7 @@ const Banner = () => {
                             </table>
                           </div>
                         </div>
-                      </div>
+                     
                     )}
                   </div>
                 </div>
@@ -194,8 +193,7 @@ const Banner = () => {
                       </div>
                     </div>
                     {tableTwo && (
-                      <div>
-                        <div className="w-full  m-auto absolute bottom left-0 z-10">
+                        <div className="w-full   m-auto absolute bottom left-0 z-[9999]">
                           <div className="topheade ">
                             <thead className="bg-[#856a54]  flex justify-between items-center py-5 px-5">
                               <FaAngleLeft className="text-white" />
@@ -268,7 +266,7 @@ const Banner = () => {
                             </table>
                           </div>
                         </div>
-                      </div>
+                     
                     )}
                   </div>
                 </div>
@@ -319,7 +317,7 @@ const Banner = () => {
               </div>
               <div className="md:w-2/4 w-full">
                 <div className="flex gap-x-7 mt-9 ">
-                  <button className="bg-[#A6734B] hover:bg-btn transition delay-150 duration-700 w-full text-[18px] py-6 text-[#fff] font-roboto  font-normal">
+                  <button className="bg-btn hover:bg-btnhover transition delay-150 duration-700 w-full text-[18px] py-6 text-[#fff] font-roboto  font-normal">
                     CHECK AVALIABLITY
                   </button>
                 </div>

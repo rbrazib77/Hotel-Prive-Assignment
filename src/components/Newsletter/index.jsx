@@ -33,7 +33,7 @@ const Newsletter = () => {
                 className="w-full focus:text-white focus:font-roboto focus:font-medium bg-transparent focus:outline-none border-b-2 py-2 placeholder:text-xl placeholder:text-white placeholder:font-medium font-roboto font-light"
                 placeholder="Enter Email Address"
               />
-              <button className="bg-[#A6734B] mt-5 md:mt-0 w-full md:w-auto hover:bg-btn transition delay-150 duration-700 px-24 py-7 text-white font-roboto font-medium text-base">
+              <button className="bg-btn mt-5 md:mt-0 w-full md:w-auto hover:bg-btnhover transition delay-150 duration-700 px-24 py-7 text-white font-roboto font-medium text-base">
                 SUBCRIBER
               </button>
             </div>

@@ -105,18 +105,18 @@ const RoomSuits = () => {
   return (
     <>
       <section id="roomandsuits" onMouseMove={handleMouseMove}>
-        <div className="title text-center">
-          <h4 className="font-roboto font-normal text-center text-lg uppercase flex items-center justify-center gap-5 text-secondary tracking-[5px]">
+        <div className="title md:text-center md:px-0 px-6">
+          <h4 className="font-roboto font-normal md:text-center text-lg uppercase flex items-center md:justify-center gap-5 text-secondary tracking-[5px]">
             <picture>
               <img src={titleLine} alt={titleLine} />
             </picture>{" "}
             ACCOMMODATION
           </h4>
         </div>
-        <h1 className="font-anglecia font-normal text-[32px] md:text-[56px] text-dark text-center pb-4">
+        <h1 className="font-anglecia font-normal text-[32px] md:text-[56px] text-dark md:text-center px-6 md:px-0 pb-4">
           Rooms & Suits{" "}
         </h1>
-        <p className="font-roboto font-normal text-lg text-dark text-center pb-5 md:max-w-[730px] mx-auto">
+        <p className="font-roboto font-normal text-lg text-dark md:text-center md:px-0 px-6 pb-5 md:max-w-[730px] p mx-auto">
           Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
           posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut
           pharetra augue nec augue. Nam elit agna, endrerit sit amet.
@@ -158,7 +158,7 @@ const RoomSuits = () => {
               ref={(slider) => (sliderRef2 = slider)}
               {...settings}
             >
-              <div className="info">
+              <div className="info md:px-0 px-6">
                 <h3 className="font-anglecia font-medium text-2xl md:text-6xl text-white text-center pb-8">
                   Superior Single Room
                 </h3>
@@ -184,7 +184,7 @@ const RoomSuits = () => {
                   </a>
                 </div>
               </div>
-              <div className="info">
+              <div className="info md:px-0 px-6">
                 <h3 className="font-anglecia font-medium text-2xl md:text-6xl text-white text-center pb-8">
                   Superior Single Room
                 </h3>
@@ -210,7 +210,7 @@ const RoomSuits = () => {
                   </a>
                 </div>
               </div>
-              <div className="info">
+              <div className="info md:px-0 px-6">
                 <h3 className="font-anglecia font-medium text-2xl md:text-6xl text-white text-center pb-8">
                   Superior Single Room
                 </h3>

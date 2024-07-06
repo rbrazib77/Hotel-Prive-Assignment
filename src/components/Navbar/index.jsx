@@ -78,7 +78,7 @@ const Navbar = () => {
                       <span className="">+1 800 603 6035</span>
                     </div>
                     <div className="booking">
-                      <button className=" py-3 px-7 bg-[#A6734B] hover:bg-btn transition delay-150 duration-600 text-white">
+                      <button className=" py-3 px-7 bg-btn hover:bg-btnhover transition delay-150 duration-600 text-white">
                         Book Now
                       </button>
                     </div>

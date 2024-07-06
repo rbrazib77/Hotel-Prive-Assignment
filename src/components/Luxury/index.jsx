@@ -16,7 +16,7 @@ const Luxury = () => {
         </div>
         <div className="md:w-1/2 w-full">
           <div className="container_box relative z-[99] md:-right-16 px-0">
-            <div className="welcome_info md:pl-20 relative bg-white after:absolute after:w-full after:content-[''] after:h-full after:border after:border-dark after:top-10 after:-right-8 after:z-[-1]  pt-20 before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:top-12 before:-right-10 before:z-[-2]">
+            <div className="welcome_info md:pl-20 relative bg-white md:after:absolute after:w-full md:after:content-[''] after:h-full md:after:border after:border-dark after:top-10 after:-right-8 after:z-[-1]  pt-20 md:before:absolute before:w-full before:content-[''] before:h-full before:border before:border-secondary before:top-12 before:-right-10 before:z-[-2]">
               <div className="title pb-4 text-left">
                 <h4 className="font-roboto font-normal text-center text-lg uppercase flex items-center justify-start gap-5 text-secondary tracking-[5px]">
                   <picture>
@@ -41,7 +41,7 @@ const Luxury = () => {
               </p>
               <a
                 href="#"
-                className="font-roboto pt-10 text-lg text-third font-medium tracking-[1px] flex items-center gap-10"
+                className="font-roboto text-btnhover pt-10 text-lg text-third font-medium tracking-[1px] flex items-center gap-10"
               >
                 Explore More
                 <span className="w-14  inline-block overflow-hidden">
